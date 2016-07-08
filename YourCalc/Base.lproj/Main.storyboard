@@ -1,25 +1,495 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YourCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b14.png" translatesAutoresizingMaskIntoConstraints="NO" id="NiR-pp-Wmy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCB-TP-blC">
+                                <rect key="frame" x="-1" y="573" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="decpoint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bC1-Wy-xzw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kD-XV-vZo">
+                                <rect key="frame" x="281" y="573" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="plus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bnE-I0-8yX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2KJ-ZA-CXA">
+                                <rect key="frame" x="93" y="573" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="zero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2av-lH-zNZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uA-qy-4qy">
+                                <rect key="frame" x="187" y="573" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="equals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="quC-qZ-El8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1f-Xn-dgj">
+                                <rect key="frame" x="0.0" y="479" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="one:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pe9-rY-dX5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTh-7r-k9Q">
+                                <rect key="frame" x="282" y="479" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="–">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BJw-9Z-Buz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUg-KH-o8T">
+                                <rect key="frame" x="94" y="479" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="two:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Spn-Rg-lU9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auJ-g8-ADx">
+                                <rect key="frame" x="188" y="479" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="three:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bbt-1x-L58"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hp-cX-hsR">
+                                <rect key="frame" x="-1" y="385" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="four:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iog-uh-nRF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0TK-Dh-3p8">
+                                <rect key="frame" x="281" y="385" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="×">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="times:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6j1-H7-mEr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4I-Ap-eqO">
+                                <rect key="frame" x="93" y="385" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="five:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pwq-a4-V5O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNU-hu-IK2">
+                                <rect key="frame" x="187" y="385" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="six:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zyN-hK-ooF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjB-C6-xdj">
+                                <rect key="frame" x="-1" y="291" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="seven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iYW-JM-Pub"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcl-Lg-m6f">
+                                <rect key="frame" x="281" y="291" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="/">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="divide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lc3-nf-YA3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWb-0b-5ZQ">
+                                <rect key="frame" x="93" y="291" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="eight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="124-EH-Rjj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rjI-WW-H4O">
+                                <rect key="frame" x="187" y="291" width="94" height="94"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="31.690000534057617"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZUJ-t3-un7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSr-mh-M8w">
+                                <rect key="frame" x="0.0" y="228.5" width="62.5" height="62.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                <state key="normal" title="√">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sqrt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g0o-P5-chL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfZ-Yk-c13">
+                                <rect key="frame" x="125" y="228.5" width="62.5" height="62.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                <state key="normal" title="(">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="openpar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ysM-yB-OMk"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iYY-Nl-E51">
+                                <rect key="frame" x="65" y="87" width="283" height="79"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="67"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wp2-6q-UU2">
+                                <rect key="frame" x="26" y="116" width="22" height="22"/>
+                                <state key="normal" backgroundImage="info button.png"/>
+                                <connections>
+                                    <segue destination="SI6-DM-sb2" kind="show" id="gTO-YV-bjB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BhO-SN-w0b">
+                                <rect key="frame" x="62.5" y="228.5" width="62.5" height="62.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                <state key="normal" title="^">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="power:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfV-zM-wuM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXb-8o-U7C">
+                                <rect key="frame" x="187.5" y="228.5" width="62.5" height="62.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                <state key="normal" title=")">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closepar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8RO-49-7Xh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pGC-HO-4Ur">
+                                <rect key="frame" x="250" y="228.5" width="62.5" height="62.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                <state key="normal" title="DEL">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="delKey:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fKr-yY-03d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0MY-Ge-HT1">
+                                <rect key="frame" x="312.5" y="228.5" width="62.5" height="62.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearBt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7yN-Z4-P64"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="aBackground" destination="NiR-pp-Wmy" id="eHU-RT-weZ"/>
+                        <outlet property="resultField" destination="iYY-Nl-E51" id="FaY-Z9-iP3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="244.5" y="316.5"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="89M-BP-ugi">
+            <objects>
+                <viewController id="SI6-DM-sb2" customClass="SettingsViewController" customModule="YourCalc" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sxP-DY-y9w"/>
+                        <viewControllerLayoutGuide type="bottom" id="7xk-Ql-1gl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oHu-5S-H5D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b14.png" translatesAutoresizingMaskIntoConstraints="NO" id="VM5-th-Lsm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpp-KK-8X8">
+                                <rect key="frame" x="25" y="45" width="39" height="39"/>
+                                <state key="normal" image="back button.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="3Fu-AV-FOD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azU-tW-g3u">
+                                <rect key="frame" x="134" y="45" width="107" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Customize Background" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3LX-0x-qCB">
+                                <rect key="frame" x="83" y="91" width="210" height="23"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ouv-Tg-HtP">
+                                <rect key="frame" x="13" y="519" width="351" height="72"/>
+                                <string key="text">This is George Saieed’s first app
+on the iOS App Store.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dN5-x9-AdN">
+                                <rect key="frame" x="9" y="127" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t1.png"/>
+                                <connections>
+                                    <action selector="back1:" destination="SI6-DM-sb2" eventType="touchUpInside" id="dKy-YM-wL9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2o-pM-GRP">
+                                <rect key="frame" x="80" y="127" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t2.png"/>
+                                <connections>
+                                    <action selector="back2:" destination="SI6-DM-sb2" eventType="touchUpInside" id="LtT-UM-WtO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEl-OV-zTT">
+                                <rect key="frame" x="151" y="127" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t3.png"/>
+                                <connections>
+                                    <action selector="back3:" destination="SI6-DM-sb2" eventType="touchUpInside" id="YN9-rF-Q9q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTl-Nb-5WO">
+                                <rect key="frame" x="223" y="127" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t4.png"/>
+                                <connections>
+                                    <action selector="back4:" destination="SI6-DM-sb2" eventType="touchUpInside" id="gnB-fd-BU3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tkm-uY-T39">
+                                <rect key="frame" x="295" y="127" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t5.png"/>
+                                <connections>
+                                    <action selector="back5:" destination="SI6-DM-sb2" eventType="touchUpInside" id="otp-My-dgB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gS-E3-ChG">
+                                <rect key="frame" x="8" y="198" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t6.png"/>
+                                <connections>
+                                    <action selector="back6:" destination="SI6-DM-sb2" eventType="touchUpInside" id="0QO-cy-SdG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naw-6b-i9D">
+                                <rect key="frame" x="80" y="198" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t7.png"/>
+                                <connections>
+                                    <action selector="back7:" destination="SI6-DM-sb2" eventType="touchUpInside" id="zsW-iS-gWC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cps-VY-D8g">
+                                <rect key="frame" x="151" y="198" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t8.png"/>
+                                <connections>
+                                    <action selector="back8:" destination="SI6-DM-sb2" eventType="touchUpInside" id="nJw-Te-Q8h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dai-mc-kj2">
+                                <rect key="frame" x="223" y="198" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t9.png"/>
+                                <connections>
+                                    <action selector="back9:" destination="SI6-DM-sb2" eventType="touchUpInside" id="BDy-0c-0zn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXY-Bi-Kwx">
+                                <rect key="frame" x="295" y="198.5" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t10.png"/>
+                                <connections>
+                                    <action selector="back10:" destination="SI6-DM-sb2" eventType="touchUpInside" id="17d-c0-LcG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbq-Ep-1Nu">
+                                <rect key="frame" x="9" y="270" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t11.png"/>
+                                <connections>
+                                    <action selector="back11:" destination="SI6-DM-sb2" eventType="touchUpInside" id="7E1-II-V8R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Tz-3D-50q">
+                                <rect key="frame" x="80" y="270" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t12.png"/>
+                                <connections>
+                                    <action selector="back12:" destination="SI6-DM-sb2" eventType="touchUpInside" id="Lyn-EY-PXG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRt-RZ-dOh">
+                                <rect key="frame" x="152" y="270" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t13.png"/>
+                                <connections>
+                                    <action selector="back13:" destination="SI6-DM-sb2" eventType="touchUpInside" id="q9R-h6-hZa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sxc-Oh-sMp">
+                                <rect key="frame" x="222" y="270" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t14.png"/>
+                                <connections>
+                                    <action selector="back14:" destination="SI6-DM-sb2" eventType="touchUpInside" id="3Q6-Wa-iAd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="noj-g2-Zhf">
+                                <rect key="frame" x="294" y="270" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t15.png"/>
+                                <connections>
+                                    <action selector="back15:" destination="SI6-DM-sb2" eventType="touchUpInside" id="jKs-ua-ofs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pz-tH-PyV">
+                                <rect key="frame" x="10" y="341.5" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t16.png"/>
+                                <connections>
+                                    <action selector="back16:" destination="SI6-DM-sb2" eventType="touchUpInside" id="s79-xa-WA5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gix-5z-J6Z">
+                                <rect key="frame" x="80" y="341" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t17.png"/>
+                                <connections>
+                                    <action selector="back17:" destination="SI6-DM-sb2" eventType="touchUpInside" id="rwi-xD-nJ6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9fp-wN-TII">
+                                <rect key="frame" x="153" y="341.5" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t18.png"/>
+                                <connections>
+                                    <action selector="back18:" destination="SI6-DM-sb2" eventType="touchUpInside" id="lxJ-dH-kk8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUg-w0-xby">
+                                <rect key="frame" x="223" y="341.5" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t19.png"/>
+                                <connections>
+                                    <action selector="back19:" destination="SI6-DM-sb2" eventType="touchUpInside" id="jYj-I2-JSr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJS-iX-brT">
+                                <rect key="frame" x="134" y="488" width="107" height="34"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TmA-hO-Fqp">
+                                <rect key="frame" x="295" y="341" width="71.5" height="71.5"/>
+                                <state key="normal" backgroundImage="t20.png"/>
+                                <connections>
+                                    <action selector="back20:" destination="SI6-DM-sb2" eventType="touchUpInside" id="AzV-iv-iV7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="backImage" destination="VM5-th-Lsm" id="Jks-gU-QPd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MSE-jR-yDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="768.5" y="316.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="b14.png" width="750" height="1334"/>
+        <image name="back button.png" width="75" height="75"/>
+        <image name="info button.png" width="512" height="512"/>
+        <image name="t1.png" width="216" height="216"/>
+        <image name="t10.png" width="216" height="216"/>
+        <image name="t11.png" width="216" height="216"/>
+        <image name="t12.png" width="216" height="216"/>
+        <image name="t13.png" width="216" height="216"/>
+        <image name="t14.png" width="216" height="216"/>
+        <image name="t15.png" width="216" height="216"/>
+        <image name="t16.png" width="216" height="216"/>
+        <image name="t17.png" width="216" height="216"/>
+        <image name="t18.png" width="216" height="216"/>
+        <image name="t19.png" width="216" height="216"/>
+        <image name="t2.png" width="216" height="216"/>
+        <image name="t20.png" width="216" height="216"/>
+        <image name="t3.png" width="216" height="216"/>
+        <image name="t4.png" width="216" height="216"/>
+        <image name="t5.png" width="216" height="216"/>
+        <image name="t6.png" width="216" height="216"/>
+        <image name="t7.png" width="216" height="216"/>
+        <image name="t8.png" width="216" height="216"/>
+        <image name="t9.png" width="216" height="216"/>
+    </resources>
 </document>
