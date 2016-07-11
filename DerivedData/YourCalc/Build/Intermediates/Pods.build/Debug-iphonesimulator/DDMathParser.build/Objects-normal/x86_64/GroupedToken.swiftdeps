@@ -1,0 +1,167 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GroupedTokenError"
+- "GroupedToken"
+provides-nominal:
+- "V10MathParser17GroupedTokenError"
+- "OV10MathParser17GroupedTokenError4Kind"
+- "V10MathParser12GroupedToken"
+- "OV10MathParser12GroupedToken4Kind"
+provides-member:
+- ["V10MathParser17GroupedTokenError", ""]
+- ["OV10MathParser17GroupedTokenError4Kind", ""]
+- ["V10MathParser12GroupedToken", ""]
+- ["OV10MathParser12GroupedToken4Kind", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Double"
+- "=="
+- "GroupedTokenError"
+- "ErrorType"
+- "Operator"
+- "String"
+- "Range"
+- "Array"
+- "GroupedToken"
+- "MathParser"
+depends-member:
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- ["Ps10Comparable", "Index"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps9Equatable", "Index"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", ""]
+- ["Ps9ErrorType", "_code"]
+- ["Ps9ErrorType", "_domain"]
+- ["Ps9ErrorType", ""]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "Index"]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- ["V10MathParser12GroupedToken", "Array"]
+- ["V10MathParser12GroupedToken", "Double"]
+- ["V10MathParser12GroupedToken", "GroupedToken"]
+- ["V10MathParser12GroupedToken", "Kind"]
+- ["V10MathParser12GroupedToken", "MathParser"]
+- ["V10MathParser12GroupedToken", "Range"]
+- ["V10MathParser12GroupedToken", "String"]
+- ["V10MathParser12GroupedToken", "init"]
+- ["V10MathParser12GroupedToken", "kind"]
+- ["V10MathParser12GroupedToken", "range"]
+- ["V10MathParser17GroupedTokenError", "Kind"]
+- ["V10MathParser17GroupedTokenError", "Range"]
+- ["V10MathParser17GroupedTokenError", "String"]
+- ["V10MathParser17GroupedTokenError", "_code"]
+- ["V10MathParser17GroupedTokenError", "_domain"]
+- ["V10MathParser17GroupedTokenError", "deinit"]
+- ["V10MathParser17GroupedTokenError", "init"]
+- ["V10MathParser17GroupedTokenError", "kind"]
+- ["V10MathParser17GroupedTokenError", "range"]
+- ["Ps8Hashable", "Index"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps11IntegerType", "hashValue"]
+- ["OV10MathParser12GroupedToken4Kind", "Array"]
+- ["OV10MathParser12GroupedToken4Kind", "Double"]
+- ["OV10MathParser12GroupedToken4Kind", "Function"]
+- ["OV10MathParser12GroupedToken4Kind", "Group"]
+- ["OV10MathParser12GroupedToken4Kind", "GroupedToken"]
+- ["OV10MathParser12GroupedToken4Kind", "MathParser"]
+- ["OV10MathParser12GroupedToken4Kind", "Number"]
+- ["OV10MathParser12GroupedToken4Kind", "Operator"]
+- ["OV10MathParser12GroupedToken4Kind", "String"]
+- ["OV10MathParser12GroupedToken4Kind", "Variable"]
+- ["OV10MathParser17GroupedTokenError4Kind", "EmptyFunctionArgument"]
+- ["OV10MathParser17GroupedTokenError4Kind", "EmptyGroup"]
+- ["OV10MathParser17GroupedTokenError4Kind", "MissingCloseParenthesis"]
+- ["OV10MathParser17GroupedTokenError4Kind", "MissingOpenParenthesis"]
+- ["OV10MathParser17GroupedTokenError4Kind", "deinit"]
+- ["OV10MathParser17GroupedTokenError4Kind", "hashValue"]
+- ["Ps14MirrorPathType", "Index"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- ["Ps16OutputStreamType", "Index"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- ["Ps10Streamable", "Index"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "Index"]
+- ["Ps30StringInterpolationConvertible", "Index"]
+- ["Ps24StringLiteralConvertible", "Index"]
+- ["Ps31UnicodeScalarLiteralConvertible", "Index"]
+- ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "Index"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- ["Ps32_BuiltinStringLiteralConvertible", "Index"]
+- ["Ps37_BuiltinUTF16StringLiteralConvertible", "Index"]
+- ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "Index"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Ps11CVarArgType"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps9ErrorType"
+- "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps16ForwardIndexType"
+- "V10MathParser12GroupedToken"
+- "V10MathParser17GroupedTokenError"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- "OV10MathParser12GroupedToken4Kind"
+- "OV10MathParser17GroupedTokenError4Kind"
+- "Ps14MirrorPathType"
+- "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- "Ps10Streamable"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps30StringInterpolationConvertible"
+- "Ps24StringLiteralConvertible"
+- "Ps31UnicodeScalarLiteralConvertible"
+- "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- "Ps32_BuiltinStringLiteralConvertible"
+- "Ps37_BuiltinUTF16StringLiteralConvertible"
+- "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/George/Desktop/YourCalc/YourCalc/Pods/DDMathParser/MathParser/MathParser.h"
+- "/Users/George/Desktop/YourCalc/YourCalc/Pods/Target Support Files/DDMathParser/DDMathParser-umbrella.h"
+- "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Intermediates/Pods.build/Debug-iphonesimulator/DDMathParser.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "f19250f9b1ba1c20081e8a0b9d56f155"

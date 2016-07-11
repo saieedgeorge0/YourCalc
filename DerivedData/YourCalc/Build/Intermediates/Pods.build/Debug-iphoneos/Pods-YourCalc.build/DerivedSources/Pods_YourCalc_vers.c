@@ -1,0 +1,1 @@
+ const unsigned char Pods_YourCalcVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_YourCalc  PROJECT:Pods-1" "\n"; const double Pods_YourCalcVersionNumber __attribute__ ((used)) = (double)1.;

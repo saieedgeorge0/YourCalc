@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (3.4.1)
+  - DDMathParser (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DDMathParser (~> 2.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  DDMathParser: 74cddd0aa652cfed79e68fdd076f1ee63ab43a16
+
+PODFILE CHECKSUM: 671a429ae2642aab61b0502e86700b89914837cc
+
+COCOAPODS: 1.0.1

@@ -163,26 +163,22 @@ class SettingsViewController: UIViewController {
         viewDidLoad()
     }
     func save(name: String) {
-        //1
         self.deleteAllData("Background")
         let appDelegate =
             UIApplication.sharedApplication().delegate as! AppDelegate
         
         let managedContext = appDelegate.managedObjectContext
         
-        //2
         let entity =  NSEntityDescription.entityForName("Background",
                                                         inManagedObjectContext:managedContext)
         
-        let person = NSManagedObject(entity: entity!,
-                                     insertIntoManagedObjectContext: managedContext)
+        let person = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext)
         
-        //3
         person.setValue(name, forKey: "name")
         
-        //4
         do {
             try managedContext.save()
+            cores.append(person)
         } catch let error as NSError  {
             print("Could not save \(error), \(error.userInfo)")
         }

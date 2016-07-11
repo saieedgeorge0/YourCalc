@@ -8,15 +8,13 @@
 
 import UIKit
 import CoreData
-infix operator ^^ { }
-func ^^ (radix: Int, power: Int) -> Int {
-    return Int(pow(Double(radix), Double(power)))
-}
+import Alamofire
+import MathParser
+var cores = [NSManagedObject]()
 
 class ViewController: UIViewController {
     var storedBackground = NSManagedObject()
     @IBOutlet var aBackground: UIImageView!
-    var cores = [NSManagedObject]()
 
     override func viewDidLoad() {
         let appDelegate =
@@ -312,9 +310,16 @@ class ViewController: UIViewController {
                     finalString += "sqrt"
                 }
             }
-            print(finalString)
-            let exp: NSExpression = NSExpression(format: finalString)
-            let result: Double = exp.expressionValueWithObject(nil, context: nil) as! Double
+            var result = 0.0
+            do{
+                let evaluator = Evaluator()
+                let expression = try Expression(string: finalString)
+                result = try evaluator.evaluate(expression)
+            }
+            catch
+            {
+                
+            }
             resultField.text = String(result)
             inTyping = String(result)
             finalString = ""

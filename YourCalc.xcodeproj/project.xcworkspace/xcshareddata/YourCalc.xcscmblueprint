@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6A4928F4C2DE052BC4E7D6A8E116DBA6E6B0B55A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6A4928F4C2DE052BC4E7D6A8E116DBA6E6B0B55A" : 0,
+    "73B5CC398ED47ADE2BE4C874A386B3430E9FAE26" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0876401C-2AD9-40E9-9606-BF6D7E016E1A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6A4928F4C2DE052BC4E7D6A8E116DBA6E6B0B55A" : "YourCalc\/",
+    "73B5CC398ED47ADE2BE4C874A386B3430E9FAE26" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YourCalc",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YourCalc.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/saieedgeorge0\/YourCalc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6A4928F4C2DE052BC4E7D6A8E116DBA6E6B0B55A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/saieedgeorge0\/YourCalc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "73B5CC398ED47ADE2BE4C874A386B3430E9FAE26"
+    }
+  ]
+}

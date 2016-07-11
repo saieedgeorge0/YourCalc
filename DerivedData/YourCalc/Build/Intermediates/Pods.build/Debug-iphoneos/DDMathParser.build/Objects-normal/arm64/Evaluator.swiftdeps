@@ -1,0 +1,256 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EvaluationError"
+- "FunctionRegistrationError"
+- "Evaluator"
+provides-nominal:
+- "O10MathParser15EvaluationError"
+- "O10MathParser25FunctionRegistrationError"
+- "V10MathParser9Evaluator"
+- "OV10MathParser9Evaluator9AngleMode"
+provides-member:
+- ["O10MathParser15EvaluationError", ""]
+- ["O10MathParser25FunctionRegistrationError", ""]
+- ["V10MathParser9Evaluator", ""]
+- ["OV10MathParser9Evaluator9AngleMode", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "BooleanLiteralType"
+- !private "FloatLiteralType"
+- "EvaluationError"
+- "Evaluator"
+- "Substitutions"
+- "FunctionRegistrationError"
+- "VariableResolver"
+- "Expression"
+- "ErrorType"
+- !private "Array"
+- "FunctionOverrider"
+- "FunctionSet"
+- "Double"
+- "FunctionResolver"
+- !private "IntegerLiteralType"
+- "Bool"
+- "=="
+- "Function"
+- "Dictionary"
+depends-member:
+- ["OV10MathParser9Evaluator9AngleMode", "Degrees"]
+- ["OV10MathParser9Evaluator9AngleMode", "Radians"]
+- ["OV10MathParser9Evaluator9AngleMode", "deinit"]
+- ["OV10MathParser9Evaluator9AngleMode", "hashValue"]
+- !private ["Ps9AnyObject", "addAlias"]
+- !private ["Ps9AnyObject", "evaluatorForName"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kind"]
+- !private ["Ps9AnyObject", "normalize"]
+- !private ["Ps9AnyObject", "registerFunction"]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "Value"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "kind"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- ["Ps9Equatable", "Radians"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "kind"]
+- ["Ps9Equatable", ""]
+- !private ["Ps9ErrorType", "UnknownFunction"]
+- !private ["Ps9ErrorType", "UnknownVariable"]
+- ["Ps9ErrorType", "_code"]
+- ["Ps9ErrorType", "_domain"]
+- ["Ps9ErrorType", ""]
+- ["O10MathParser15EvaluationError", "DivideByZero"]
+- ["O10MathParser15EvaluationError", "InvalidArguments"]
+- ["O10MathParser15EvaluationError", "String"]
+- ["O10MathParser15EvaluationError", "UnknownFunction"]
+- ["O10MathParser15EvaluationError", "UnknownVariable"]
+- ["O10MathParser15EvaluationError", "_code"]
+- ["O10MathParser15EvaluationError", "_domain"]
+- ["O10MathParser15EvaluationError", "deinit"]
+- ["V10MathParser9Evaluator", "AngleMode"]
+- !private ["V10MathParser9Evaluator", "Array"]
+- ["V10MathParser9Evaluator", "Bool"]
+- ["V10MathParser9Evaluator", "Double"]
+- !private ["V10MathParser9Evaluator", "EvaluationError"]
+- ["V10MathParser9Evaluator", "Evaluator"]
+- ["V10MathParser9Evaluator", "Expression"]
+- ["V10MathParser9Evaluator", "Function"]
+- ["V10MathParser9Evaluator", "FunctionOverrider"]
+- ["V10MathParser9Evaluator", "FunctionResolver"]
+- ["V10MathParser9Evaluator", "FunctionSet"]
+- ["V10MathParser9Evaluator", "String"]
+- ["V10MathParser9Evaluator", "Substitutions"]
+- ["V10MathParser9Evaluator", "VariableResolver"]
+- ["V10MathParser9Evaluator", "angleMeasurementMode"]
+- ["V10MathParser9Evaluator", "defaultEvaluator"]
+- ["V10MathParser9Evaluator", "evaluate"]
+- !private ["V10MathParser9Evaluator", "evaluateFunction"]
+- !private ["V10MathParser9Evaluator", "evaluateVariable"]
+- ["V10MathParser9Evaluator", "functionOverrider"]
+- ["V10MathParser9Evaluator", "functionResolver"]
+- !private ["V10MathParser9Evaluator", "functionSet"]
+- ["V10MathParser9Evaluator", "init"]
+- ["V10MathParser9Evaluator", "registerAlias"]
+- ["V10MathParser9Evaluator", "registerFunction"]
+- ["V10MathParser9Evaluator", "variableResolver"]
+- !private ["C10MathParser10Expression", "kind"]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- !private ["P10MathParser17FunctionOverrider", "overrideFunction"]
+- ["O10MathParser25FunctionRegistrationError", "FunctionAlreadyExists"]
+- ["O10MathParser25FunctionRegistrationError", "FunctionDoesNotExist"]
+- ["O10MathParser25FunctionRegistrationError", "String"]
+- ["O10MathParser25FunctionRegistrationError", "_code"]
+- ["O10MathParser25FunctionRegistrationError", "_domain"]
+- ["O10MathParser25FunctionRegistrationError", "deinit"]
+- !private ["P10MathParser16FunctionResolver", "resolveFunction"]
+- !private ["C10MathParser11FunctionSet", "addAlias"]
+- !private ["C10MathParser11FunctionSet", "evaluatorForName"]
+- !private ["C10MathParser11FunctionSet", "init"]
+- !private ["C10MathParser11FunctionSet", "normalize"]
+- !private ["C10MathParser11FunctionSet", "registerFunction"]
+- !private ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "Radians"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps11IntegerType", "hashValue"]
+- ["OC10MathParser10Expression4Kind", "Function"]
+- ["OC10MathParser10Expression4Kind", "Number"]
+- ["OC10MathParser10Expression4Kind", "Variable"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "Value"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["P10MathParser16VariableResolver", "resolveVariable"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "Key"]
+- !private ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- "OV10MathParser9Evaluator9AngleMode"
+- !private "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- "Ps9Equatable"
+- "Ps9ErrorType"
+- "O10MathParser15EvaluationError"
+- "V10MathParser9Evaluator"
+- !private "C10MathParser10Expression"
+- !private "Ps16ForwardIndexType"
+- !private "P10MathParser17FunctionOverrider"
+- "O10MathParser25FunctionRegistrationError"
+- !private "P10MathParser16FunctionResolver"
+- !private "C10MathParser11FunctionSet"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- "OC10MathParser10Expression4Kind"
+- !private "Ps14MirrorPathType"
+- !private "Ps21NilLiteralConvertible"
+- !private "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- !private "P10MathParser16VariableResolver"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/George/Desktop/YourCalc/YourCalc/Pods/DDMathParser/MathParser/MathParser.h"
+- "/Users/George/Desktop/YourCalc/YourCalc/Pods/Target Support Files/DDMathParser/DDMathParser-umbrella.h"
+- "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Intermediates/Pods.build/Debug-iphoneos/DDMathParser.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "2f7c2990315b50f7e63eec0f2983303f"

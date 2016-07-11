@@ -1,0 +1,368 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BuiltInOperator"
+provides-nominal:
+- "O10MathParser15BuiltInOperator"
+provides-member:
+- ["O10MathParser15BuiltInOperator", ""]
+- ["C10MathParser8Operator", ""]
+- ["C10MathParser8Operator", "defaultPowerAssociativity"]
+- ["C10MathParser8Operator", "builtInOperator"]
+- ["C10MathParser8Operator", "init"]
+- ["C10MathParser8Operator", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "String"
+- !private "Set"
+- "NSExpression"
+- !private "UnicodeScalarType"
+- "BuiltInOperator"
+- "Operator"
+- "StringLiteralType"
+- !private "~="
+- "=="
+- "Int"
+depends-member:
+- ["Ps9AnyObject", "Associativity"]
+- !private ["Ps9AnyObject", "BuiltInOperator"]
+- ["Ps9AnyObject", "NSExpression"]
+- !private ["Ps9AnyObject", "Operator"]
+- !private ["Ps9AnyObject", "defaultPowerAssociativity"]
+- ["Ps9AnyObject", "expressionValueWithObject"]
+- !private ["Ps9AnyObject", "function"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "intValue"]
+- !private ["Ps9AnyObject", "precedence"]
+- !private ["Ps9AnyObject", "tokens"]
+- !private ["OC10MathParser8Operator5Arity", "Binary"]
+- !private ["OC10MathParser8Operator5Arity", "Unary"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- ["OC10MathParser8Operator13Associativity", "Left"]
+- ["OC10MathParser8Operator13Associativity", "Right"]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["O10MathParser15BuiltInOperator", "Add"]
+- ["O10MathParser15BuiltInOperator", "BitwiseAnd"]
+- ["O10MathParser15BuiltInOperator", "BitwiseNot"]
+- ["O10MathParser15BuiltInOperator", "BitwiseOr"]
+- ["O10MathParser15BuiltInOperator", "BitwiseXor"]
+- ["O10MathParser15BuiltInOperator", "Comma"]
+- ["O10MathParser15BuiltInOperator", "CubeRoot"]
+- ["O10MathParser15BuiltInOperator", "Degree"]
+- ["O10MathParser15BuiltInOperator", "Divide"]
+- ["O10MathParser15BuiltInOperator", "DoubleFactorial"]
+- ["O10MathParser15BuiltInOperator", "Factorial"]
+- ["O10MathParser15BuiltInOperator", "ImplicitMultiply"]
+- ["O10MathParser15BuiltInOperator", "LeftShift"]
+- ["O10MathParser15BuiltInOperator", "LogicalAnd"]
+- ["O10MathParser15BuiltInOperator", "LogicalEqual"]
+- ["O10MathParser15BuiltInOperator", "LogicalGreaterThan"]
+- ["O10MathParser15BuiltInOperator", "LogicalGreaterThanOrEqual"]
+- ["O10MathParser15BuiltInOperator", "LogicalLessThan"]
+- ["O10MathParser15BuiltInOperator", "LogicalLessThanOrEqual"]
+- ["O10MathParser15BuiltInOperator", "LogicalNot"]
+- ["O10MathParser15BuiltInOperator", "LogicalNotEqual"]
+- ["O10MathParser15BuiltInOperator", "LogicalOr"]
+- ["O10MathParser15BuiltInOperator", "Minus"]
+- ["O10MathParser15BuiltInOperator", "Modulo"]
+- ["O10MathParser15BuiltInOperator", "Multiply"]
+- ["O10MathParser15BuiltInOperator", "ParenthesisClose"]
+- ["O10MathParser15BuiltInOperator", "ParenthesisOpen"]
+- ["O10MathParser15BuiltInOperator", "Percent"]
+- ["O10MathParser15BuiltInOperator", "Power"]
+- ["O10MathParser15BuiltInOperator", "RawValue"]
+- ["O10MathParser15BuiltInOperator", "RightShift"]
+- ["O10MathParser15BuiltInOperator", "SquareRoot"]
+- ["O10MathParser15BuiltInOperator", "UnaryMinus"]
+- ["O10MathParser15BuiltInOperator", "UnaryPlus"]
+- ["O10MathParser15BuiltInOperator", "deinit"]
+- ["O10MathParser15BuiltInOperator", "hashValue"]
+- ["O10MathParser15BuiltInOperator", "init"]
+- ["O10MathParser15BuiltInOperator", "rawValue"]
+- ["Ps11CVarArgType", "expressionValueWithObject"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- ["Ps28CustomDebugStringConvertible", "expressionValueWithObject"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "Associativity"]
+- !private ["Ps23CustomStringConvertible", "BuiltInOperator"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- ["Ps23CustomStringConvertible", "NSExpression"]
+- !private ["Ps23CustomStringConvertible", "Operator"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "defaultPowerAssociativity"]
+- ["Ps23CustomStringConvertible", "expressionValueWithObject"]
+- !private ["Ps23CustomStringConvertible", "function"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "precedence"]
+- !private ["Ps23CustomStringConvertible", "tokens"]
+- ["Ps9Equatable", "Add"]
+- ["Ps9Equatable", "Associativity"]
+- !private ["Ps9Equatable", "Binary"]
+- ["Ps9Equatable", "BitwiseAnd"]
+- ["Ps9Equatable", "BitwiseNot"]
+- ["Ps9Equatable", "BitwiseOr"]
+- ["Ps9Equatable", "BitwiseXor"]
+- !private ["Ps9Equatable", "BuiltInOperator"]
+- ["Ps9Equatable", "Comma"]
+- ["Ps9Equatable", "CubeRoot"]
+- ["Ps9Equatable", "Degree"]
+- ["Ps9Equatable", "Divide"]
+- ["Ps9Equatable", "DoubleFactorial"]
+- !private ["Ps9Equatable", "Element"]
+- ["Ps9Equatable", "Factorial"]
+- ["Ps9Equatable", "ImplicitMultiply"]
+- ["Ps9Equatable", "Left"]
+- ["Ps9Equatable", "LeftShift"]
+- ["Ps9Equatable", "LogicalAnd"]
+- ["Ps9Equatable", "LogicalEqual"]
+- ["Ps9Equatable", "LogicalGreaterThan"]
+- ["Ps9Equatable", "LogicalGreaterThanOrEqual"]
+- ["Ps9Equatable", "LogicalLessThan"]
+- ["Ps9Equatable", "LogicalLessThanOrEqual"]
+- ["Ps9Equatable", "LogicalNot"]
+- ["Ps9Equatable", "LogicalNotEqual"]
+- ["Ps9Equatable", "LogicalOr"]
+- ["Ps9Equatable", "Minus"]
+- ["Ps9Equatable", "Modulo"]
+- ["Ps9Equatable", "Multiply"]
+- ["Ps9Equatable", "NSExpression"]
+- !private ["Ps9Equatable", "Operator"]
+- ["Ps9Equatable", "ParenthesisClose"]
+- ["Ps9Equatable", "ParenthesisOpen"]
+- ["Ps9Equatable", "Percent"]
+- ["Ps9Equatable", "Power"]
+- ["Ps9Equatable", "RawValue"]
+- ["Ps9Equatable", "Right"]
+- ["Ps9Equatable", "RightShift"]
+- ["Ps9Equatable", "SquareRoot"]
+- !private ["Ps9Equatable", "Unary"]
+- ["Ps9Equatable", "UnaryMinus"]
+- ["Ps9Equatable", "UnaryPlus"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "defaultPowerAssociativity"]
+- ["Ps9Equatable", "expressionValueWithObject"]
+- !private ["Ps9Equatable", "function"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "precedence"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "tokens"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- ["Ps8Hashable", "Add"]
+- !private ["Ps8Hashable", "Binary"]
+- ["Ps8Hashable", "BitwiseAnd"]
+- ["Ps8Hashable", "BitwiseNot"]
+- ["Ps8Hashable", "BitwiseOr"]
+- ["Ps8Hashable", "BitwiseXor"]
+- ["Ps8Hashable", "Comma"]
+- ["Ps8Hashable", "CubeRoot"]
+- ["Ps8Hashable", "Degree"]
+- ["Ps8Hashable", "Divide"]
+- ["Ps8Hashable", "DoubleFactorial"]
+- !private ["Ps8Hashable", "Element"]
+- ["Ps8Hashable", "Factorial"]
+- ["Ps8Hashable", "ImplicitMultiply"]
+- ["Ps8Hashable", "Left"]
+- ["Ps8Hashable", "LeftShift"]
+- ["Ps8Hashable", "LogicalAnd"]
+- ["Ps8Hashable", "LogicalEqual"]
+- ["Ps8Hashable", "LogicalGreaterThan"]
+- ["Ps8Hashable", "LogicalGreaterThanOrEqual"]
+- ["Ps8Hashable", "LogicalLessThan"]
+- ["Ps8Hashable", "LogicalLessThanOrEqual"]
+- ["Ps8Hashable", "LogicalNot"]
+- ["Ps8Hashable", "LogicalNotEqual"]
+- ["Ps8Hashable", "LogicalOr"]
+- ["Ps8Hashable", "Minus"]
+- ["Ps8Hashable", "Modulo"]
+- ["Ps8Hashable", "Multiply"]
+- ["Ps8Hashable", "ParenthesisClose"]
+- ["Ps8Hashable", "ParenthesisOpen"]
+- ["Ps8Hashable", "Percent"]
+- ["Ps8Hashable", "Power"]
+- ["Ps8Hashable", "RawValue"]
+- ["Ps8Hashable", "Right"]
+- ["Ps8Hashable", "RightShift"]
+- ["Ps8Hashable", "SquareRoot"]
+- !private ["Ps8Hashable", "Unary"]
+- ["Ps8Hashable", "UnaryMinus"]
+- ["Ps8Hashable", "UnaryPlus"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "expressionValueWithObject"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps11IntegerType", "hashValue"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- ["PSo8NSCoding", "expressionValueWithObject"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "expressionValueWithObject"]
+- ["PSo9NSCopying", "init"]
+- ["CSo12NSExpression", "expressionValueWithObject"]
+- ["CSo12NSExpression", "init"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "expressionValueWithObject"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "expressionValueWithObject"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "expressionValueWithObject"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["C10MathParser8Operator", "Arity"]
+- ["C10MathParser8Operator", "Associativity"]
+- ["C10MathParser8Operator", "BuiltInOperator"]
+- ["C10MathParser8Operator", "Int"]
+- ["C10MathParser8Operator", "NSExpression"]
+- ["C10MathParser8Operator", "Operator"]
+- !private ["C10MathParser8Operator", "Set"]
+- !private ["C10MathParser8Operator", "String"]
+- ["C10MathParser8Operator", "builtInOperator"]
+- ["C10MathParser8Operator", "defaultPowerAssociativity"]
+- !private ["C10MathParser8Operator", "function"]
+- ["C10MathParser8Operator", "init"]
+- !private ["C10MathParser8Operator", "precedence"]
+- !private ["C10MathParser8Operator", "tokens"]
+- ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "Add"]
+- ["Ps16RawRepresentable", "BitwiseAnd"]
+- ["Ps16RawRepresentable", "BitwiseNot"]
+- ["Ps16RawRepresentable", "BitwiseOr"]
+- ["Ps16RawRepresentable", "BitwiseXor"]
+- ["Ps16RawRepresentable", "Comma"]
+- ["Ps16RawRepresentable", "CubeRoot"]
+- ["Ps16RawRepresentable", "Degree"]
+- ["Ps16RawRepresentable", "Divide"]
+- ["Ps16RawRepresentable", "DoubleFactorial"]
+- ["Ps16RawRepresentable", "Factorial"]
+- ["Ps16RawRepresentable", "ImplicitMultiply"]
+- ["Ps16RawRepresentable", "LeftShift"]
+- ["Ps16RawRepresentable", "LogicalAnd"]
+- ["Ps16RawRepresentable", "LogicalEqual"]
+- ["Ps16RawRepresentable", "LogicalGreaterThan"]
+- ["Ps16RawRepresentable", "LogicalGreaterThanOrEqual"]
+- ["Ps16RawRepresentable", "LogicalLessThan"]
+- ["Ps16RawRepresentable", "LogicalLessThanOrEqual"]
+- ["Ps16RawRepresentable", "LogicalNot"]
+- ["Ps16RawRepresentable", "LogicalNotEqual"]
+- ["Ps16RawRepresentable", "LogicalOr"]
+- ["Ps16RawRepresentable", "Minus"]
+- ["Ps16RawRepresentable", "Modulo"]
+- ["Ps16RawRepresentable", "Multiply"]
+- ["Ps16RawRepresentable", "ParenthesisClose"]
+- ["Ps16RawRepresentable", "ParenthesisOpen"]
+- ["Ps16RawRepresentable", "Percent"]
+- ["Ps16RawRepresentable", "Power"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "RightShift"]
+- ["Ps16RawRepresentable", "SquareRoot"]
+- ["Ps16RawRepresentable", "UnaryMinus"]
+- ["Ps16RawRepresentable", "UnaryPlus"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Vs3Set", "Element"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- !private ["Ps12_Reflectable", "Element"]
+- ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "OC10MathParser8Operator5Arity"
+- !private "Ps23ArrayLiteralConvertible"
+- "OC10MathParser8Operator13Associativity"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- "Sb"
+- "Ps25BooleanLiteralConvertible"
+- "Ps11BooleanType"
+- "O10MathParser15BuiltInOperator"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo12NSExpression"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "C10MathParser8Operator"
+- "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Vs3Set"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+- "intValue"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/George/Desktop/YourCalc/YourCalc/Pods/DDMathParser/MathParser/MathParser.h"
+- "/Users/George/Desktop/YourCalc/YourCalc/Pods/Target Support Files/DDMathParser/DDMathParser-umbrella.h"
+- "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Intermediates/Pods.build/Debug-iphoneos/DDMathParser.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "cd826374b7315eb64bc31e36f3b83069"
