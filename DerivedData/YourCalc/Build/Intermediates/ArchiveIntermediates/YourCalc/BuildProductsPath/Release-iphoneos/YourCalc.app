@@ -1,1 +1,0 @@
-/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Intermediates/ArchiveIntermediates/YourCalc/InstallationBuildProductsLocation/Applications/YourCalc.app
