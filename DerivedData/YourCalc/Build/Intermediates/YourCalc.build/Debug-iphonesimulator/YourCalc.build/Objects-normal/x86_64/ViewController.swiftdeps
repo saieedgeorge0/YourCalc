@@ -7,73 +7,71 @@ provides-nominal:
 provides-member:
 - ["C8YourCalc14ViewController", ""]
 provides-dynamic-lookup:
-- "finalAnswer"
-- "minus"
-- "seven"
-- "aBackground"
-- "zero"
-- "finalString"
-- "three"
-- "closepar"
-- "decpoint"
-- "six"
 - "inTyping"
-- "openpar"
-- "resultField"
-- "five"
-- "clearBt"
-- "sqrt"
-- "four"
-- "times"
-- "power"
-- "canIClose"
-- "plus"
-- "viewDidLoad"
-- "two"
-- "didReceiveMemoryWarning"
-- "delKey"
-- "canDec"
-- "divide"
-- "nine"
-- "one"
-- "eight"
+- "seven"
 - "equals"
-- "storedBackground"
+- "delKey"
+- "eight"
+- "finalString"
+- "zero"
+- "six"
+- "resultField"
+- "times"
+- "openpar"
+- "power"
+- "one"
+- "three"
+- "five"
+- "two"
+- "canIClose"
+- "four"
+- "decpoint"
+- "divide"
+- "closepar"
+- "plus"
+- "clearBt"
+- "nine"
+- "sqrt"
+- "minus"
+- "finalAnswer"
+- "viewDidLoad"
+- "aBackground"
+- "canDec"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "Expression"
-- !private "&&"
-- "BooleanLiteralType"
-- !private "theBackground"
-- !private "UnicodeScalarType"
-- "NSManagedObject"
-- !private "UIApplication"
-- !private "ExtendedGraphemeClusterType"
-- "String"
-- !private "NSFetchRequest"
-- "UIImageView"
 - "ViewController"
-- !private "UIImage"
-- !private "!="
+- "String"
+- "StringLiteralType"
+- !private "Evaluator"
+- !private "NSFetchRequest"
+- !private "=="
 - !private "<="
 - !private "+="
-- "AnyObject"
-- "UIViewController"
-- !private "AppDelegate"
-- "StringLiteralType"
-- !private "||"
-- "UITextField"
-- "cores"
 - !private "print"
-- !private "Evaluator"
-- !private "=="
+- !private "!="
+- "NSManagedObject"
+- "BooleanLiteralType"
+- !private "AppDelegate"
+- !private "UIApplication"
+- !private "Expression"
+- !private "||"
+- !private "theBackground"
+- !private "&&"
+- "UIImageView"
+- "cores"
+- !private "UIImage"
+- "UITextField"
+- !private "ExtendedGraphemeClusterType"
 - !private "NSError"
+- "UIViewController"
+- !private "UnicodeScalarType"
+- "AnyObject"
 - !private ">"
 depends-member:
 - !private ["Vs12AnyGenerator", "Element"]
 - !private ["Ps9AnyObject", "Evaluator"]
 - !private ["Ps9AnyObject", "Expression"]
 - !private ["Ps9AnyObject", "NSFetchRequest"]
-- ["Ps9AnyObject", "NSManagedObject"]
 - !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "UIApplication"]
 - !private ["Ps9AnyObject", "UIImage"]
@@ -112,7 +110,6 @@ depends-member:
 - !private ["Ps9AnyObject", "sharedApplication"]
 - ["Ps9AnyObject", "six"]
 - ["Ps9AnyObject", "sqrt"]
-- ["Ps9AnyObject", "storedBackground"]
 - !private ["Ps9AnyObject", "text"]
 - !private ["Ps9AnyObject", "theBackground"]
 - ["Ps9AnyObject", "three"]
@@ -157,7 +154,6 @@ depends-member:
 - !private ["Ps11CVarArgType", "Expression"]
 - ["Ps11CVarArgType", "IntegerLiteralType"]
 - !private ["Ps11CVarArgType", "NSFetchRequest"]
-- ["Ps11CVarArgType", "NSManagedObject"]
 - !private ["Ps11CVarArgType", "String"]
 - !private ["Ps11CVarArgType", "UIApplication"]
 - !private ["Ps11CVarArgType", "UIImage"]
@@ -196,7 +192,6 @@ depends-member:
 - !private ["Ps11CVarArgType", "sharedApplication"]
 - ["Ps11CVarArgType", "six"]
 - ["Ps11CVarArgType", "sqrt"]
-- ["Ps11CVarArgType", "storedBackground"]
 - !private ["Ps11CVarArgType", "text"]
 - !private ["Ps11CVarArgType", "theBackground"]
 - ["Ps11CVarArgType", "three"]
@@ -236,7 +231,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "Generator"]
 - ["Ps28CustomDebugStringConvertible", "Index"]
 - !private ["Ps28CustomDebugStringConvertible", "NSFetchRequest"]
-- ["Ps28CustomDebugStringConvertible", "NSManagedObject"]
 - !private ["Ps28CustomDebugStringConvertible", "String"]
 - ["Ps28CustomDebugStringConvertible", "SubSequence"]
 - !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
@@ -278,7 +272,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "sharedApplication"]
 - ["Ps28CustomDebugStringConvertible", "six"]
 - ["Ps28CustomDebugStringConvertible", "sqrt"]
-- ["Ps28CustomDebugStringConvertible", "storedBackground"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - !private ["Ps28CustomDebugStringConvertible", "text"]
 - !private ["Ps28CustomDebugStringConvertible", "theBackground"]
@@ -297,7 +290,6 @@ depends-member:
 - ["Ps23CustomStringConvertible", "Index"]
 - ["Ps23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["Ps23CustomStringConvertible", "NSFetchRequest"]
-- ["Ps23CustomStringConvertible", "NSManagedObject"]
 - !private ["Ps23CustomStringConvertible", "String"]
 - ["Ps23CustomStringConvertible", "SubSequence"]
 - !private ["Ps23CustomStringConvertible", "UIApplication"]
@@ -340,7 +332,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "sharedApplication"]
 - ["Ps23CustomStringConvertible", "six"]
 - ["Ps23CustomStringConvertible", "sqrt"]
-- ["Ps23CustomStringConvertible", "storedBackground"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
 - !private ["Ps23CustomStringConvertible", "text"]
 - !private ["Ps23CustomStringConvertible", "theBackground"]
@@ -359,7 +350,6 @@ depends-member:
 - !private ["Ps9Equatable", "Expression"]
 - ["Ps9Equatable", "IntegerLiteralType"]
 - !private ["Ps9Equatable", "NSFetchRequest"]
-- ["Ps9Equatable", "NSManagedObject"]
 - !private ["Ps9Equatable", "String"]
 - !private ["Ps9Equatable", "UIApplication"]
 - !private ["Ps9Equatable", "UIImage"]
@@ -399,7 +389,6 @@ depends-member:
 - !private ["Ps9Equatable", "sharedApplication"]
 - ["Ps9Equatable", "six"]
 - ["Ps9Equatable", "sqrt"]
-- ["Ps9Equatable", "storedBackground"]
 - !private ["Ps9Equatable", "text"]
 - !private ["Ps9Equatable", "theBackground"]
 - ["Ps9Equatable", "three"]
@@ -425,7 +414,6 @@ depends-member:
 - !private ["Ps8Hashable", "Expression"]
 - ["Ps8Hashable", "IntegerLiteralType"]
 - !private ["Ps8Hashable", "NSFetchRequest"]
-- ["Ps8Hashable", "NSManagedObject"]
 - !private ["Ps8Hashable", "String"]
 - !private ["Ps8Hashable", "UIApplication"]
 - !private ["Ps8Hashable", "UIImage"]
@@ -465,7 +453,6 @@ depends-member:
 - !private ["Ps8Hashable", "sharedApplication"]
 - ["Ps8Hashable", "six"]
 - ["Ps8Hashable", "sqrt"]
-- ["Ps8Hashable", "storedBackground"]
 - !private ["Ps8Hashable", "text"]
 - !private ["Ps8Hashable", "theBackground"]
 - ["Ps8Hashable", "three"]
@@ -529,7 +516,6 @@ depends-member:
 - !private ["PSo8NSCoding", "Evaluator"]
 - !private ["PSo8NSCoding", "Expression"]
 - !private ["PSo8NSCoding", "NSFetchRequest"]
-- ["PSo8NSCoding", "NSManagedObject"]
 - !private ["PSo8NSCoding", "String"]
 - !private ["PSo8NSCoding", "UIApplication"]
 - !private ["PSo8NSCoding", "UIImage"]
@@ -565,7 +551,6 @@ depends-member:
 - ["PSo8NSCoding", "seven"]
 - ["PSo8NSCoding", "six"]
 - ["PSo8NSCoding", "sqrt"]
-- ["PSo8NSCoding", "storedBackground"]
 - !private ["PSo8NSCoding", "text"]
 - !private ["PSo8NSCoding", "theBackground"]
 - ["PSo8NSCoding", "three"]
@@ -582,7 +567,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "Evaluator"]
 - !private ["PSo26NSExtensionRequestHandling", "Expression"]
 - !private ["PSo26NSExtensionRequestHandling", "NSFetchRequest"]
-- ["PSo26NSExtensionRequestHandling", "NSManagedObject"]
 - !private ["PSo26NSExtensionRequestHandling", "String"]
 - !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
 - !private ["PSo26NSExtensionRequestHandling", "UIImage"]
@@ -615,7 +599,6 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "seven"]
 - ["PSo26NSExtensionRequestHandling", "six"]
 - ["PSo26NSExtensionRequestHandling", "sqrt"]
-- ["PSo26NSExtensionRequestHandling", "storedBackground"]
 - !private ["PSo26NSExtensionRequestHandling", "theBackground"]
 - ["PSo26NSExtensionRequestHandling", "three"]
 - ["PSo26NSExtensionRequestHandling", "times"]
@@ -625,7 +608,6 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["CSo14NSFetchRequest", "init"]
 - !private ["PSo9NSLocking", "executeFetchRequest"]
-- ["CSo15NSManagedObject", "init"]
 - !private ["CSo15NSManagedObject", "valueForKey"]
 - !private ["CSo22NSManagedObjectContext", "executeFetchRequest"]
 - !private ["PSo16NSMutableCopying", "characters"]
@@ -636,7 +618,7 @@ depends-member:
 - !private ["CSo8NSObject", "Expression"]
 - !private ["CSo8NSObject", "NSError"]
 - !private ["CSo8NSObject", "NSFetchRequest"]
-- ["CSo8NSObject", "NSManagedObject"]
+- !private ["CSo8NSObject", "NSManagedObject"]
 - ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "UIApplication"]
 - !private ["CSo8NSObject", "UIImage"]
@@ -677,7 +659,6 @@ depends-member:
 - !private ["CSo8NSObject", "sharedApplication"]
 - ["CSo8NSObject", "six"]
 - ["CSo8NSObject", "sqrt"]
-- ["CSo8NSObject", "storedBackground"]
 - !private ["CSo8NSObject", "text"]
 - !private ["CSo8NSObject", "theBackground"]
 - ["CSo8NSObject", "three"]
@@ -690,7 +671,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "Evaluator"]
 - !private ["PSo16NSObjectProtocol", "Expression"]
 - !private ["PSo16NSObjectProtocol", "NSFetchRequest"]
-- ["PSo16NSObjectProtocol", "NSManagedObject"]
 - !private ["PSo16NSObjectProtocol", "String"]
 - !private ["PSo16NSObjectProtocol", "UIApplication"]
 - !private ["PSo16NSObjectProtocol", "UIImage"]
@@ -729,7 +709,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "sharedApplication"]
 - ["PSo16NSObjectProtocol", "six"]
 - ["PSo16NSObjectProtocol", "sqrt"]
-- ["PSo16NSObjectProtocol", "storedBackground"]
 - !private ["PSo16NSObjectProtocol", "text"]
 - !private ["PSo16NSObjectProtocol", "theBackground"]
 - ["PSo16NSObjectProtocol", "three"]
@@ -800,7 +779,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "Evaluator"]
 - !private ["PSo21UIAppearanceContainer", "Expression"]
 - !private ["PSo21UIAppearanceContainer", "NSFetchRequest"]
-- ["PSo21UIAppearanceContainer", "NSManagedObject"]
 - !private ["PSo21UIAppearanceContainer", "String"]
 - !private ["PSo21UIAppearanceContainer", "UIApplication"]
 - !private ["PSo21UIAppearanceContainer", "UIImage"]
@@ -834,7 +812,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "seven"]
 - ["PSo21UIAppearanceContainer", "six"]
 - ["PSo21UIAppearanceContainer", "sqrt"]
-- ["PSo21UIAppearanceContainer", "storedBackground"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - !private ["PSo21UIAppearanceContainer", "theBackground"]
 - ["PSo21UIAppearanceContainer", "three"]
@@ -849,7 +826,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "Evaluator"]
 - !private ["PSo18UIContentContainer", "Expression"]
 - !private ["PSo18UIContentContainer", "NSFetchRequest"]
-- ["PSo18UIContentContainer", "NSManagedObject"]
 - !private ["PSo18UIContentContainer", "String"]
 - !private ["PSo18UIContentContainer", "UIApplication"]
 - !private ["PSo18UIContentContainer", "UIImage"]
@@ -882,7 +858,6 @@ depends-member:
 - ["PSo18UIContentContainer", "seven"]
 - ["PSo18UIContentContainer", "six"]
 - ["PSo18UIContentContainer", "sqrt"]
-- ["PSo18UIContentContainer", "storedBackground"]
 - !private ["PSo18UIContentContainer", "theBackground"]
 - ["PSo18UIContentContainer", "three"]
 - ["PSo18UIContentContainer", "times"]
@@ -898,7 +873,6 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "Evaluator"]
 - !private ["PSo18UIFocusEnvironment", "Expression"]
 - !private ["PSo18UIFocusEnvironment", "NSFetchRequest"]
-- ["PSo18UIFocusEnvironment", "NSManagedObject"]
 - !private ["PSo18UIFocusEnvironment", "String"]
 - !private ["PSo18UIFocusEnvironment", "UIApplication"]
 - !private ["PSo18UIFocusEnvironment", "UIImage"]
@@ -932,7 +906,6 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "seven"]
 - ["PSo18UIFocusEnvironment", "six"]
 - ["PSo18UIFocusEnvironment", "sqrt"]
-- ["PSo18UIFocusEnvironment", "storedBackground"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - !private ["PSo18UIFocusEnvironment", "theBackground"]
 - ["PSo18UIFocusEnvironment", "three"]
@@ -950,7 +923,7 @@ depends-member:
 - !private ["CSo11UIResponder", "Expression"]
 - !private ["CSo11UIResponder", "NSError"]
 - !private ["CSo11UIResponder", "NSFetchRequest"]
-- ["CSo11UIResponder", "NSManagedObject"]
+- !private ["CSo11UIResponder", "NSManagedObject"]
 - ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "UIApplication"]
 - !private ["CSo11UIResponder", "UIImage"]
@@ -989,7 +962,6 @@ depends-member:
 - !private ["CSo11UIResponder", "sharedApplication"]
 - ["CSo11UIResponder", "six"]
 - ["CSo11UIResponder", "sqrt"]
-- ["CSo11UIResponder", "storedBackground"]
 - !private ["CSo11UIResponder", "text"]
 - !private ["CSo11UIResponder", "theBackground"]
 - ["CSo11UIResponder", "three"]
@@ -1000,7 +972,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "Evaluator"]
 - !private ["PSo16UIStateRestoring", "Expression"]
 - !private ["PSo16UIStateRestoring", "NSFetchRequest"]
-- ["PSo16UIStateRestoring", "NSManagedObject"]
 - !private ["PSo16UIStateRestoring", "String"]
 - !private ["PSo16UIStateRestoring", "UIApplication"]
 - !private ["PSo16UIStateRestoring", "UIImage"]
@@ -1033,7 +1004,6 @@ depends-member:
 - ["PSo16UIStateRestoring", "seven"]
 - ["PSo16UIStateRestoring", "six"]
 - ["PSo16UIStateRestoring", "sqrt"]
-- ["PSo16UIStateRestoring", "storedBackground"]
 - !private ["PSo16UIStateRestoring", "theBackground"]
 - ["PSo16UIStateRestoring", "three"]
 - ["PSo16UIStateRestoring", "times"]
@@ -1047,7 +1017,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "Evaluator"]
 - !private ["PSo18UITraitEnvironment", "Expression"]
 - !private ["PSo18UITraitEnvironment", "NSFetchRequest"]
-- ["PSo18UITraitEnvironment", "NSManagedObject"]
 - !private ["PSo18UITraitEnvironment", "String"]
 - !private ["PSo18UITraitEnvironment", "UIApplication"]
 - !private ["PSo18UITraitEnvironment", "UIImage"]
@@ -1081,7 +1050,6 @@ depends-member:
 - ["PSo18UITraitEnvironment", "seven"]
 - ["PSo18UITraitEnvironment", "six"]
 - ["PSo18UITraitEnvironment", "sqrt"]
-- ["PSo18UITraitEnvironment", "storedBackground"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - !private ["PSo18UITraitEnvironment", "theBackground"]
 - ["PSo18UITraitEnvironment", "three"]
@@ -1098,7 +1066,7 @@ depends-member:
 - !private ["CSo16UIViewController", "Expression"]
 - !private ["CSo16UIViewController", "NSError"]
 - !private ["CSo16UIViewController", "NSFetchRequest"]
-- ["CSo16UIViewController", "NSManagedObject"]
+- !private ["CSo16UIViewController", "NSManagedObject"]
 - ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "UIApplication"]
 - !private ["CSo16UIViewController", "UIImage"]
@@ -1133,7 +1101,6 @@ depends-member:
 - ["CSo16UIViewController", "seven"]
 - ["CSo16UIViewController", "six"]
 - ["CSo16UIViewController", "sqrt"]
-- ["CSo16UIViewController", "storedBackground"]
 - !private ["CSo16UIViewController", "theBackground"]
 - ["CSo16UIViewController", "three"]
 - ["CSo16UIViewController", "times"]
@@ -1157,7 +1124,7 @@ depends-member:
 - !private ["C8YourCalc14ViewController", "Expression"]
 - !private ["C8YourCalc14ViewController", "NSError"]
 - !private ["C8YourCalc14ViewController", "NSFetchRequest"]
-- ["C8YourCalc14ViewController", "NSManagedObject"]
+- !private ["C8YourCalc14ViewController", "NSManagedObject"]
 - ["C8YourCalc14ViewController", "String"]
 - !private ["C8YourCalc14ViewController", "UIApplication"]
 - !private ["C8YourCalc14ViewController", "UIImage"]
@@ -1193,7 +1160,6 @@ depends-member:
 - ["C8YourCalc14ViewController", "seven"]
 - ["C8YourCalc14ViewController", "six"]
 - ["C8YourCalc14ViewController", "sqrt"]
-- ["C8YourCalc14ViewController", "storedBackground"]
 - !private ["C8YourCalc14ViewController", "theBackground"]
 - ["C8YourCalc14ViewController", "three"]
 - ["C8YourCalc14ViewController", "times"]
@@ -1314,7 +1280,7 @@ depends-nominal:
 - "PSo26NSExtensionRequestHandling"
 - !private "CSo14NSFetchRequest"
 - !private "PSo9NSLocking"
-- "CSo15NSManagedObject"
+- !private "CSo15NSManagedObject"
 - !private "CSo22NSManagedObjectContext"
 - !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
@@ -1402,4 +1368,4 @@ depends-external:
 - "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Products/Debug-iphonesimulator/DDMathParser/MathParser.framework/Headers/MathParser.h"
 - "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Products/Debug-iphonesimulator/DDMathParser/MathParser.framework/Headers/DDMathParser-umbrella.h"
 - "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Products/Debug-iphonesimulator/DDMathParser/MathParser.framework/Modules/module.modulemap"
-interface-hash: "f03a998ae312bc9c595a0b67dcac9746"
+interface-hash: "8d6cea1b572927e0577513968cb775ff"

@@ -13,9 +13,7 @@ import MathParser
 var cores = [NSManagedObject]()
 
 class ViewController: UIViewController {
-    var storedBackground = NSManagedObject()
     @IBOutlet var aBackground: UIImageView!
-
     override func viewDidLoad() {
         let appDelegate =
             UIApplication.sharedApplication().delegate as! AppDelegate

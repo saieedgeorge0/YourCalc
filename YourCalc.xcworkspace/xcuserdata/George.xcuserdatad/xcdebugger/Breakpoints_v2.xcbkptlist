@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YourCalc/SettingsViewController.swift"
-            timestampString = "489910291.373362"
+            timestampString = "489911290.143893"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "186"
@@ -33,6 +33,52 @@
             endingLineNumber = "165"
             landmarkName = "save(_:)"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YourCalc/ViewController.swift"
+            timestampString = "489911829.236468"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_0223DB899FD3AADF0A44B4DAF0115DBE_func0"
+                  moduleName = "YourCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/George/Desktop/YourCalc/YourCalc/YourCalc/ViewController.swift"
+                  timestampString = "489911603.736064"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YourCalc.cores.unsafeMutableAddressor : Swift.Array&lt;__ObjC.NSManagedObject&gt;"
+                  moduleName = "YourCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/George/Desktop/YourCalc/YourCalc/YourCalc/ViewController.swift"
+                  timestampString = "489911603.736286"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -157,12 +157,10 @@ SWIFT_CLASS("_TtC8YourCalc22SettingsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSManagedObject;
 @class UITextField;
 
 SWIFT_CLASS("_TtC8YourCalc14ViewController")
 @interface ViewController : UIViewController
-@property (nonatomic, strong) NSManagedObject * _Nonnull storedBackground;
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified aBackground;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
