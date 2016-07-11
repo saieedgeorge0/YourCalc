@@ -55,6 +55,8 @@
 		5E4BCF451D2F1A9300284934 /* b20.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E4BCF311D2F1A9300284934 /* b20.png */; };
 		5E4BCF4A1D2F221700284934 /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E4BCF481D2F221700284934 /* back button.png */; };
 		5E4BCF4D1D2F269700284934 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4BCF4C1D2F269700284934 /* SettingsViewController.swift */; };
+		5E8490E51D344D20004AF9F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8490E41D344D20004AF9F2 /* Default-568h@2x.png */; };
+		5E8490E81D344D87004AF9F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8490E61D344D87004AF9F2 /* LaunchScreen.storyboard */; };
 		5EB42E2C1D303A6E00D19CB5 /* info button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB42E2B1D303A6E00D19CB5 /* info button.png */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +111,8 @@
 		5E4BCF311D2F1A9300284934 /* b20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b20.png; sourceTree = "<group>"; };
 		5E4BCF481D2F221700284934 /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back button.png"; sourceTree = "<group>"; };
 		5E4BCF4C1D2F269700284934 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5E8490E41D344D20004AF9F2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5E8490E71D344D87004AF9F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EB42E2B1D303A6E00D19CB5 /* info button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info button.png"; sourceTree = "<group>"; };
 		5EEBB64E1D2FFC1200EBD436 /* MathParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MathParser.framework; path = "DerivedData/YourCalc/Build/Products/Debug-iphonesimulator/DDMathParser/MathParser.framework"; sourceTree = "<group>"; };
 		5EEBB6501D2FFC1F00EBD436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -150,10 +154,12 @@
 		5E4BCE861D2F183300284934 /* YourCalc */ = {
 			isa = PBXGroup;
 			children = (
+				5E8490E41D344D20004AF9F2 /* Default-568h@2x.png */,
 				5E4BCF4C1D2F269700284934 /* SettingsViewController.swift */,
 				5E4BCE871D2F183300284934 /* AppDelegate.swift */,
 				5E4BCE891D2F183300284934 /* ViewController.swift */,
 				5E4BCE8B1D2F183400284934 /* Main.storyboard */,
+				5E8490E61D344D87004AF9F2 /* LaunchScreen.storyboard */,
 				5E4BCF481D2F221700284934 /* back button.png */,
 				5EB42E2B1D303A6E00D19CB5 /* info button.png */,
 				5E4BCF1E1D2F1A9300284934 /* b1.png */,
@@ -295,6 +301,7 @@
 				5E4BCF451D2F1A9300284934 /* b20.png in Resources */,
 				5E4BCF441D2F1A9300284934 /* b19.png in Resources */,
 				5E4BCF141D2F1A8A00284934 /* t11.png in Resources */,
+				5E8490E81D344D87004AF9F2 /* LaunchScreen.storyboard in Resources */,
 				5E4BCF3E1D2F1A9300284934 /* b13.png in Resources */,
 				5E4BCF111D2F1A8A00284934 /* t8.png in Resources */,
 				5E4BCF1D1D2F1A8A00284934 /* t20.png in Resources */,
@@ -324,6 +331,7 @@
 				5E4BCE8D1D2F183400284934 /* Main.storyboard in Resources */,
 				5E4BCF331D2F1A9300284934 /* b2.png in Resources */,
 				5E4BCF101D2F1A8A00284934 /* t7.png in Resources */,
+				5E8490E51D344D20004AF9F2 /* Default-568h@2x.png in Resources */,
 				5E4BCF191D2F1A8A00284934 /* t16.png in Resources */,
 				5E4BCF3C1D2F1A9300284934 /* b11.png in Resources */,
 				5E4BCF0B1D2F1A8A00284934 /* t2.png in Resources */,
@@ -338,7 +346,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		141D67B0E503975F02D82A0C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -346,14 +354,14 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		14FE8A546CFB9F5EF03559F3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -361,14 +369,14 @@
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YourCalc/Pods-YourCalc-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B24204F14112A0A406273B94 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -376,7 +384,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YourCalc/Pods-YourCalc-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
@@ -404,6 +412,14 @@
 				5E4BCE8C1D2F183400284934 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E8490E61D344D87004AF9F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E8490E71D344D87004AF9F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -497,6 +513,7 @@
 			baseConfigurationReference = 78A15078BC9A124DEBC72EDF /* Pods-YourCalc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: saieed.george0@gmail.com (4K24W44XGX)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DerivedData/YourCalc/Build/Products/Debug-iphonesimulator/DDMathParser",
@@ -506,6 +523,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.georgesaieed.YourCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ea2ed7a2-9a44-4920-a85d-830860e1b92d";
 			};
 			name = Debug;
 		};
@@ -514,6 +532,7 @@
 			baseConfigurationReference = 7C3EC0E7BF39D7294D22762D /* Pods-YourCalc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: saieed.george0@gmail.com (4K24W44XGX)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DerivedData/YourCalc/Build/Products/Debug-iphonesimulator/DDMathParser",
@@ -523,6 +542,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.georgesaieed.YourCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ea2ed7a2-9a44-4920-a85d-830860e1b92d";
 			};
 			name = Release;
 		};

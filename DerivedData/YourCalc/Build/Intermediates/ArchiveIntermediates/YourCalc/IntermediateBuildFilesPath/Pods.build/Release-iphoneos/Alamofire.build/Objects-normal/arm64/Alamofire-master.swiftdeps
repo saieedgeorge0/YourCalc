@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "0c38bcc49c1da9b41f8bd960a9fa56c5"
+build_time: [521590225, 649256000]
+inputs:
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/Alamofire.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/Download.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/Error.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/Manager.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/MultipartFormData.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/Notifications.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/ParameterEncoding.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/Request.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/Response.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/ResponseSerialization.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/Result.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/ServerTrustPolicy.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/Stream.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/Timeline.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/Upload.swift": [9223372036854775807, 0]
+  "/Users/George/Desktop/YourCalc/YourCalc/Pods/Alamofire/Source/Validation.swift": [9223372036854775807, 0]

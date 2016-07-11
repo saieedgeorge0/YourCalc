@@ -1,7 +1,0 @@
-version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
-options: "15f5972c7228b0dbcfb87ab3f2627a29"
-build_time: [521321784, 712184000]
-inputs:
-  "/Users/George/Desktop/YourCalc/YourCalc/YourCalc/ViewController.swift": [521308609, 0]
-  "/Users/George/Desktop/YourCalc/YourCalc/YourCalc/AppDelegate.swift": [521321518, 0]
-  "/Users/George/Desktop/YourCalc/YourCalc/YourCalc/SettingsViewController.swift": [521307726, 0]
