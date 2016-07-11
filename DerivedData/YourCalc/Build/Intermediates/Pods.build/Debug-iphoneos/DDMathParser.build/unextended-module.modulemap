@@ -1,0 +1,10 @@
+framework module MathParser {
+  umbrella header "DDMathParser-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MathParser.__Swift {
+    exclude header "MathParser-Swift.h"
+}

@@ -1,0 +1,92 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/George/Desktop/YourCalc/YourCalc/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Intermediates/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Products/Debug-iphoneos/DDMathParser/MathParser.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DDMathParser-umbrella.h",
+          'external-contents': "/Users/George/Desktop/YourCalc/YourCalc/Pods/Target Support Files/DDMathParser/DDMathParser-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "MathParser-Swift.h",
+          'external-contents': "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Products/Debug-iphoneos/DDMathParser/MathParser.framework/Headers/MathParser-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MathParser.h",
+          'external-contents': "/Users/George/Desktop/YourCalc/YourCalc/Pods/DDMathParser/MathParser/MathParser.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Products/Debug-iphoneos/DDMathParser/MathParser.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Intermediates/Pods.build/Debug-iphoneos/DDMathParser.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Products/Debug-iphoneos/Pods_YourCalc.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-YourCalc-umbrella.h",
+          'external-contents': "/Users/George/Desktop/YourCalc/YourCalc/Pods/Target Support Files/Pods-YourCalc/Pods-YourCalc-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_YourCalc-Swift.h",
+          'external-contents': "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Products/Debug-iphoneos/Pods_YourCalc.framework/Headers/Pods_YourCalc-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Products/Debug-iphoneos/Pods_YourCalc.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/George/Desktop/YourCalc/YourCalc/DerivedData/YourCalc/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-YourCalc.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -513,7 +513,7 @@
 			baseConfigurationReference = 78A15078BC9A124DEBC72EDF /* Pods-YourCalc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: saieed.george0@gmail.com (4K24W44XGX)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: George Saieed (6HAPHNN2W5)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DerivedData/YourCalc/Build/Products/Debug-iphonesimulator/DDMathParser",
@@ -523,7 +523,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.georgesaieed.YourCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ea2ed7a2-9a44-4920-a85d-830860e1b92d";
+				PROVISIONING_PROFILE = "3f9a0fd1-d10f-41f6-a448-ec11d4ada63f";
 			};
 			name = Debug;
 		};
@@ -532,7 +532,7 @@
 			baseConfigurationReference = 7C3EC0E7BF39D7294D22762D /* Pods-YourCalc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: saieed.george0@gmail.com (4K24W44XGX)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: George Saieed (6HAPHNN2W5)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DerivedData/YourCalc/Build/Products/Debug-iphonesimulator/DDMathParser",
@@ -542,7 +542,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.georgesaieed.YourCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ea2ed7a2-9a44-4920-a85d-830860e1b92d";
+				PROVISIONING_PROFILE = "3f9a0fd1-d10f-41f6-a448-ec11d4ada63f";
 			};
 			name = Release;
 		};
